@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+body 
+{
+  background: url(desert.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+.header
+{
+  width: 100%;
+  height: 80px;
+  display: block;
+  /*background-color: black;*/
+}
+.inner-header
+{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo-container
+{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo-container h1 
+{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: white;
+}
+.nav
+{
+  float: right;
+  height: 100%;
+}
+.nav a
+{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.nav a li
+{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+   font-family: quicksand, sans-serif;
+   font-size: 24px;
+  font-weight: 300;
+}
+
+
+
+li
+{
+  padding: 0px 20px;
+}
+
+.about-p
+{
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+   font-family: quicksand, sans-serif;
+   font-size: 24px;
+  font-weight: 600;
+  transform: translate(-50%, -50%);  
+}
+
+#content 
+{
+  font-family: quicksand, sans-serif;
+   font-size: 16px;
+  font-weight: 400; 
+}
+#title 
+{
+  font-family: quicksand, sans-serif;
+   font-size: 16px;
+  font-weight: 400; 
+}
+
+#content img
+{
+    height: 100vh;
+    width: 100vh;
+}
+
